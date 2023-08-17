@@ -1,0 +1,1 @@
+{"version":3,"file":"EpopeeState.d.ts","sourceRoot":"","sources":["../../../../src/webparts/epopee/models/EpopeeState.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,8BAA8B,CAAA;AAC3D,OAAO,EAAE,UAAU,EAAE,MAAM,cAAc,CAAA;AAEzC,oBAAY,WAAW,GAAG;IACtB,KAAK,EAAE,UAAU,EAAE,CAAA;IACnB,SAAS,EAAC,YAAY,EAAE,CAAA;CAC3B,CAAA"}

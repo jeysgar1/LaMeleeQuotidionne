@@ -1,0 +1,1 @@
+{"version":3,"file":"LogData.js","sourceRoot":"","sources":["../../src/models/LogData.ts"],"names":[],"mappings":"AAEA;IACI,iBACW,QAAqB,EACrB,UAAuB,EACvB,UAAuB;QAFvB,yBAAA,EAAA,aAAqB;QACrB,2BAAA,EAAA,eAAuB;QACvB,2BAAA,EAAA,eAAuB;QAFvB,aAAQ,GAAR,QAAQ,CAAa;QACrB,eAAU,GAAV,UAAU,CAAa;QACvB,eAAU,GAAV,UAAU,CAAa;IAC9B,CAAC;IACT,cAAC;AAAD,CAAC,AAND,IAMC"}
