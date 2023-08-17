@@ -1,0 +1,111 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "initiative-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/initiative/InitiativeWebPart.js",
+          "manifest": "./src/webparts/initiative/InitiativeWebPart.manifest.json"
+        }
+      ]
+    },
+    "caracteristique-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/caracteristique/CaracteristiqueWebPart.js",
+          "manifest": "./src/webparts/caracteristique/CaracteristiqueWebPart.manifest.json"
+        }
+      ]
+    },
+    "canaux-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/canaux/CanauxWebPart.js",
+          "manifest": "./src/webparts/canaux/CanauxWebPart.manifest.json"
+        }
+      ]
+    },
+    "epopee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/epopee/EpopeeWebPart.js",
+          "manifest": "./src/webparts/epopee/EpopeeWebPart.manifest.json"
+        }
+      ]
+    },
+    "historie-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/historie/HistorieWebPart.js",
+          "manifest": "./src/webparts/historie/HistorieWebPart.manifest.json"
+        }
+      ]
+    },
+    "app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/app/AppWebPart.js",
+          "manifest": "./src/webparts/app/AppWebPart.manifest.json"
+        }
+      ]
+    },
+    "api-specification-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/apiSpecification/ApiSpecificationWebPart.js",
+          "manifest": "./src/webparts/apiSpecification/ApiSpecificationWebPart.manifest.json"
+        }
+      ]
+    },
+    "api-data-type-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/apiDataType/ApiDataTypeWebPart.js",
+          "manifest": "./src/webparts/apiDataType/ApiDataTypeWebPart.manifest.json"
+        }
+      ]
+    },
+    "tache-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tache/TacheWebPart.js",
+          "manifest": "./src/webparts/tache/TacheWebPart.manifest.json"
+        }
+      ]
+    },
+    "criteria-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/criteria/CriteriaWebPart.js",
+          "manifest": "./src/webparts/criteria/CriteriaWebPart.manifest.json"
+        }
+      ]
+    },
+    "log-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/log/LogWebPart.js",
+          "manifest": "./src/webparts/log/LogWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InitiativeWebPartStrings": "lib/webparts/initiative/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "CaracteristiqueWebPartStrings": "lib/webparts/caracteristique/loc/{locale}.js",
+    "CanauxWebPartStrings": "lib/webparts/canaux/loc/{locale}.js",
+    "EpopeeWebPartStrings": "lib/webparts/epopee/loc/{locale}.js",
+    "HistorieWebPartStrings": "lib/webparts/historie/loc/{locale}.js",
+    "AppWebPartStrings": "lib/webparts/app/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ApiSpecificationWebPartStrings": "lib/webparts/apiSpecification/loc/{locale}.js",
+    "ApiDataTypeWebPartStrings": "lib/webparts/apiDataType/loc/{locale}.js",
+    "TacheWebPartStrings": "lib/webparts/tache/loc/{locale}.js",
+    "CriteriaWebPartStrings": "lib/webparts/criteria/loc/{locale}.js",
+    "LogWebPartStrings": "lib/webparts/log/loc/{locale}.js"
+    
+  }
+}

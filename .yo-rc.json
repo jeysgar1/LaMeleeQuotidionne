@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "la-melee-quiotidionne",
+    "libraryId": "0a202295-79c9-4f54-96a2-edf23f502ebd",
+    "environment": "spo",
+    "packageManager": "pnpm",
+    "solutionName": "La Melee Quiotidionne",
+    "solutionShortDescription": "La Melee Quiotidionne description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

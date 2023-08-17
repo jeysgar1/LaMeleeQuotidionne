@@ -1,0 +1,67 @@
+{
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-4.5/includes/tsconfig-web.json",
+  "compilerOptions": {
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "inlineSources": false,
+    "noImplicitAny": true,
+
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@microsoft"
+    ],
+    "types": [
+      "webpack-env"
+    ],
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.collection",
+      "es2015.promise"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "lintConfig": {
+    // Opt-in to Lint rules which help to eliminate bugs in JavaScript
+    "rules": {
+      "class-name": false,
+      "export-name": false,
+      "forin": false,
+      "label-position": false,
+      "member-access": true,
+      "no-arg": false,
+      "no-console": false,
+      "no-construct": false,
+      "no-duplicate-case": false,
+      "no-duplicate-variable": true,
+      "no-eval": false,
+      "no-function-expression": true,
+      "no-internal-module": true,
+      "no-shadowed-variable": true,
+      "no-switch-case-fall-through": true,
+      "no-unnecessary-semicolons": true,
+      "no-unused-expression": true,
+      "no-use-before-declare": true,
+      "no-with-statement": true,
+      "semicolon": true,
+      "trailing-comma": false,
+      "typedef": false,
+      "typedef-whitespace": false,
+      "use-named-parameter": true,
+      "valid-typeof": false,
+      "variable-name": false,
+      "whitespace": false
+    }
+  }
+}
