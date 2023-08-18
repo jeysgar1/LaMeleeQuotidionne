@@ -1,0 +1,5 @@
+export * from "./apiSpecificationSlice"
+export * from "../../webparts/epopee/slices/epopeesSlice"
+export * from "./historiesSlice"
+export * from "../../webparts/initiative/slices/initiativesSlice"
+export * from "./tachesSlice"

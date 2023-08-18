@@ -1,7 +1,9 @@
 import { CommonType } from "../../../models/CommonType";
-import { HistorieType } from "../../../models/HistorieType";
+import { HistorieType } from "../../historie/models/HistorieType";
+import { TacheType } from "../../tache/models/TacheType";
 
 export class EpopeeType extends CommonType {
     IniciativaId: number;
-    Historias:HistorieType[]
+    Historias?: HistorieType[]
+    Tareas?: TacheType[]
 }

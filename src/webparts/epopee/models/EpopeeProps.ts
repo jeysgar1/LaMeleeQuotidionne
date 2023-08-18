@@ -1,5 +1,5 @@
-import { EpopeeType } from "./EpopeeType";
+import { WebPartContext } from "@microsoft/sp-webpart-base";
 
-export class EpopeeProps extends EpopeeType {
-    _items: EpopeeType[]
+export class EpopeeProps {
+    context: WebPartContext
 }

@@ -1,1 +1,0 @@
-{"version":3,"file":"customListener.d.ts","sourceRoot":"","sources":["../../src/services/customListener.ts"],"names":[],"mappings":"AAAA,OAAO,EACH,QAAQ,EACR,WAAW,EAEd,MAAM,cAAc,CAAC;AAEtB,qBAAa,cAAe,YAAW,WAAW;IAC9C,GAAG,CAAC,KAAK,EAAE,QAAQ,GAAG,IAAI;CAU7B"}

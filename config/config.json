@@ -74,19 +74,11 @@
         }
       ]
     },
-    "criteria-web-part": {
+    "raffinement-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/criteria/CriteriaWebPart.js",
-          "manifest": "./src/webparts/criteria/CriteriaWebPart.manifest.json"
-        }
-      ]
-    },
-    "log-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/log/LogWebPart.js",
-          "manifest": "./src/webparts/log/LogWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/raffinement/RaffinementWebPart.js",
+          "manifest": "./src/webparts/raffinement/RaffinementWebPart.manifest.json"
         }
       ]
     }
@@ -104,8 +96,6 @@
     "ApiSpecificationWebPartStrings": "lib/webparts/apiSpecification/loc/{locale}.js",
     "ApiDataTypeWebPartStrings": "lib/webparts/apiDataType/loc/{locale}.js",
     "TacheWebPartStrings": "lib/webparts/tache/loc/{locale}.js",
-    "CriteriaWebPartStrings": "lib/webparts/criteria/loc/{locale}.js",
-    "LogWebPartStrings": "lib/webparts/log/loc/{locale}.js"
-    
+    "RaffinementWebPartStrings": "lib/webparts/raffinement/loc/{locale}.js"
   }
 }

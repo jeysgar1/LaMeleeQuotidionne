@@ -1,7 +1,12 @@
-import { HistorieType } from "../../../models/HistorieType"
+
+import { WebPartContext } from "@microsoft/sp-webpart-base"
+import InitiativeType from "../../initiative/models/InitiativeType"
 import { EpopeeType } from "./EpopeeType"
 
 export type EpopeeState = {
-    items: EpopeeType[]
-    historias:HistorieType[]
+    context : WebPartContext | undefined
+    items: EpopeeType[] | undefined
+    item: EpopeeType | undefined
+    initiatives: InitiativeType[] | undefined
+    initiative: InitiativeType | undefined
 }

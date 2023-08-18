@@ -8,7 +8,7 @@ import {
 } from "@microsoft/sp-property-pane";
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 import Historie from "./components/Historie";
-import { HistorieType } from "../../models/HistorieType";
+import { HistorieType } from "./models/HistorieType";
 
 export default class HistorieWebPart extends BaseClientSideWebPart<HistorieType> {
   public render(): void {

@@ -1,41 +1,41 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-    "solution": {
-        "name": "La Melee Quotidionne",
-        "title": "LaMeleeQuiotidionne",
-        "id": "0a202295-79c9-4f54-96a2-edf23f502ebd",
-        "version": "1.0.9.0",
-        "includeClientSideAssets": true,
-        "skipFeatureDeployment": true,
-        "isDomainIsolated": false,
-        "developer": {
-            "name": "Jeyson Andrés García Rodríguez",
-            "websiteUrl": "",
-            "privacyUrl": "",
-            "termsOfUseUrl": "",
-            "mpnId": "Undefined-1.17.4"
-        },
-        "metadata": {
-            "shortDescription": {
-                "default": "La Melee Quiotidionne description"
-            },
-            "longDescription": {
-                "default": "La Melee Quiotidionne description"
-            },
-            "screenshotPaths": [],
-            "videoUrl": "",
-            "categories": []
-        },
-        "features": [
-            {
-                "title": "la-melee-quiotidionne Feature",
-                "description": "The feature that activates elements of the la-melee-quiotidionne solution.",
-                "id": "a6d0e7b5-f8fc-4d72-be10-620cc0c0ca9a",
-                "version": "1.1.0.0"
-            }
-        ]
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "La Melee Quotidionne",
+    "title": "LaMeleeQuiotidionne",
+    "id": "0a202295-79c9-4f54-96a2-edf23f502ebd",
+    "version": "1.0.9.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Jeyson Andrés García Rodríguez",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
     },
-    "paths": {
-        "zippedPackage": "solution/la-melee-quiotidionne.sppkg"
-    }
+    "metadata": {
+      "shortDescription": {
+        "default": "La Melee Quiotidionne description"
+      },
+      "longDescription": {
+        "default": "La Melee Quiotidionne description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "la-melee-quiotidionne Feature",
+        "description": "The feature that activates elements of the la-melee-quiotidionne solution.",
+        "id": "a6d0e7b5-f8fc-4d72-be10-620cc0c0ca9a",
+        "version": "1.1.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/la-melee-quiotidionne.sppkg"
+  }
 }

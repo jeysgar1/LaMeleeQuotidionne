@@ -9,7 +9,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'TacheWebPartStrings';
 import Tache from './components/Tache';
-import { TacheType } from '../../models/TacheType';
+import { TacheType } from './models/TacheType';
 
 
 export default class TacheWebPart extends BaseClientSideWebPart<TacheType> {
@@ -19,8 +19,12 @@ export default class TacheWebPart extends BaseClientSideWebPart<TacheType> {
     const element: React.ReactElement<TacheType> = React.createElement(
       Tache,
       {
-        Description: this.properties.Description,
-        Name: this.properties.Name
+        Necesidad: this.properties.Necesidad,
+        Title: this.properties.Title,
+        ID: this.properties.ID,
+        Nombre: this.properties.Nombre,
+        AppId: this.properties.AppId,
+        HistoriaId: this.properties.HistoriaId
       }
     );
 

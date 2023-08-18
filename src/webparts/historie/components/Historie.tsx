@@ -1,6 +1,6 @@
 import "semantic-ui-css/semantic.min.css";
 import * as React from "react";
-import { HistorieType } from "../../../models/HistorieType";
+import { HistorieType } from "../models/HistorieType";
 import { List, Image, Button, Modal } from "semantic-ui-react"
 
 export default class Historie extends React.Component<HistorieType, {}> {

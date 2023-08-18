@@ -1,5 +1,5 @@
-import { EpopeeType } from "./EpopeeType";
-export declare class EpopeeProps extends EpopeeType {
-    _items: EpopeeType[];
+import { WebPartContext } from "@microsoft/sp-webpart-base";
+export declare class EpopeeProps {
+    context: WebPartContext;
 }
 //# sourceMappingURL=EpopeeProps.d.ts.map
